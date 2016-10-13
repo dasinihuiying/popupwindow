@@ -43,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
             case R.id.btn_cut:
                 iv.setImageBitmap(util.getCutBitmap(source,0,0,source.getWidth()/2,source.getHeight()/3));
                 break;
+
+
         }
     }
 }
